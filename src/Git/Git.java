@@ -40,20 +40,20 @@ public class Git {
 			System.out.println("Esta nota no válida");
 			
 		}else {
-			System.out.println(" nota1 correcta");
+			System.out.println("La nota 1 es válida");
 		}
 		
 		if (uf2>10) {
 			System.out.println("Esta nota no válida");
 			
 		}else {
-			System.out.println(" nota2 correcta");
+			System.out.println("La nota 2 es válida");
 		}
 		if (uf3>10) {
 			System.out.println("Esta nota no válida");
 			
 		}else {
-			System.out.println(" nota3 correcta");
+			System.out.println("La nota 3 es válida");
 		}
 		
 			
@@ -62,7 +62,7 @@ public class Git {
 	}
 	// metodo para calcular nota
 	
-	public void Calculonotas() {
+	public void CalculodeNotas() {
 		acu1= uf1*0.35;
 		acu2 = uf2 * 0.35;
 		acu3 = uf3 * 0.30;
@@ -109,7 +109,7 @@ public class Git {
 		fc.comprobarcion();
 		
 
-		fc.Calculonotas();
+		fc.CalculodeNotas();
 		
 		fc.Mostrar();
 		
