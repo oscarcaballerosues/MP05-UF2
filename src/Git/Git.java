@@ -37,20 +37,20 @@ public class Git {
 	public void comprobarcion(){
 		
 		if (uf1>10) {
-			System.out.println("Esta nota no está bien introducida");
+			System.out.println("Esta nota no válida");
 			
 		}else {
 			System.out.println(" nota1 correcta");
 		}
 		
 		if (uf2>10) {
-			System.out.println("Esta nota no está bien introducida");
+			System.out.println("Esta nota no válida");
 			
 		}else {
-			System.out.println(" nota2 correctaholaaaaa");
+			System.out.println(" nota2 correcta");
 		}
 		if (uf3>10) {
-			System.out.println("Esta nota no está bien introducida");
+			System.out.println("Esta nota no válida");
 			
 		}else {
 			System.out.println(" nota3 correcta");
